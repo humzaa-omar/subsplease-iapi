@@ -43,4 +43,4 @@ Give a ⭐️ if this project helped you!
 ## 📝 License
 
 Copyright © 2021 [Humzaa Omar](https://github.com/hfomar-nafcs).<br />
-This project is [GPL--3.0--or--later](https://github.com/hfomar-nafcs/subsplease-api/blob/master/LICENSE) licensed.
+This project is [GPLv3](https://github.com/hfomar-nafcs/subsplease-api/blob/master/LICENSE) licensed.
