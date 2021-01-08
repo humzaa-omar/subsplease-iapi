@@ -21,7 +21,7 @@
 ## Usage
 
 ```sh
-curl -sSL -X GET https://subsplease-api.herokuapp.com/api/v1v1
+curl -sSL -X GET https://subsplease-api.herokuapp.com/api/v1
 ```
 
 
