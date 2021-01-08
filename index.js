@@ -4,6 +4,7 @@ var Parser = require('rss-parser');
 var parser = new Parser();
 var express = require("express");
 var app = express();
+var port = process.env.PORT || 3000
 
 app.get('/api/v1/magnet/1080p',function(req,res){
     parser.parseURL('https://subsplease.org/rss/?r=1080',   function(err, feed) {
@@ -53,7 +54,7 @@ app.get('/api/v1/torrent/all',function(req,res){
 
 
     
-app.listen(3000, () => {
- console.log("Server running on port 3000");
+app.listen(port, () => {
+ console.log(`Server running on port ${port}`);
 });
 
