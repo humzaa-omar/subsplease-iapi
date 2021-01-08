@@ -4,7 +4,7 @@ var Parser = require('rss-parser');
 var parser = new Parser();
 var express = require("express");
 var app = express();
-var port = process.env.PORT || 3000
+var port = process.env.PORT || 80
 
 app.get('/api/v1/magnet/1080p',function(req,res){
     parser.parseURL('https://subsplease.org/rss/?r=1080',   function(err, feed) {
