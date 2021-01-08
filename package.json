@@ -11,8 +11,6 @@
   "author": "Humzaa Omar",
   "license": "GPL-3.0-or-later",
   "dependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-es2015": "^6.24.1",
     "express": "^4.17.1",
     "rss-parser": "^3.10.0"
   },
