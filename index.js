@@ -1,14 +1,21 @@
-#!/usr/bin/env node
+#!/usr/bin/env node\
 
 var Parser = require("rss-parser");
 var parser = new Parser();
 var express = require("express");
 var app = express();
 var port = process.env.PORT || 80;
-var syntax = require("./syntax.json");
+var help = require("./help.json");
+const jsdom = require("jsdom");
+const { JSDOM } = jsdom;
 
 app.get("/api/v1", function (req, res) {
-  res.json(syntax);
+  res.json(help);
+});
+app.get("/api/v1/show/:show", function (req, res) {
+
+
+
 });
 app.get("/api/v1/feed/magnet/1080p", function (req, res) {
   parser.parseURL("https://subsplease.org/rss/?r=1080", function (err, feed) {
@@ -50,6 +57,7 @@ app.get("/api/v1/feed/torrent/all", function (req, res) {
     res.json(feed);
   });
 });
+
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
 });

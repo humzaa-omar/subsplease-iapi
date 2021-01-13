@@ -11,10 +11,20 @@
   "author": "Humzaa Omar",
   "license": "GPL-3.0-or-later",
   "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.5",
     "express": "^4.17.1",
+    "jsdom": "^16.4.0",
+    "nightmare": "^3.0.2",
     "rss-parser": "^3.10.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^7.17.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hfomar-nafcs/subsplease-api.git"
