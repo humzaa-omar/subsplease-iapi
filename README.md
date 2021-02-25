@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to SubsPlease Unnoficial API 👋</h1>
+<h1 align="center">Welcome to SubsPlease API [Unofficial] 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/hfomar-nafcs/subsplease-api#readme" target="_blank">
