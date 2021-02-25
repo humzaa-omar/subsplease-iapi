@@ -11,6 +11,7 @@
   "author": "Humzaa Omar",
   "license": "GPL-3.0-or-later",
   "dependencies": {
+    "electron": ">=9.4.0",
     "axios": "^0.21.1",
     "cheerio": "^1.0.0-rc.5",
     "express": "^4.17.1",
