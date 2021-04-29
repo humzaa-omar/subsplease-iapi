@@ -11,10 +11,9 @@ const { JSDOM } = jsdom;
 app.get("/api/v1", function (req, res) {
   res.json(help);
 });
-//app.get("/api/v1/show/:show", function (req, res) {});
 app.get("/api/v1/show/:show", function (req, res) {
   (async () => {
-    const browser = await puppeteer.launch();
+    const browser = await puppeteer.launch({ args: ['--no-sandbox'] });
     const page = await browser.newPage();
     await page.goto(`https://subsplease.org/shows/${req.params.show}`);
     await page.waitForSelector(".episode-title");

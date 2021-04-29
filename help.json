@@ -2,17 +2,22 @@
     "api-version": "v1.0.0",
     "creator": "Humzaa Omar",
     "feeds": [
-        "torrent", {
+        "torrent",
+        {
             "1080p": "/api/v1/feed/torrent/1080p",
             "720p": "/api/v1/feed/torrent/720p",
             "sd": "/api/v1/feed/torrent/sd",
             "all": "/api/v1/feed/torrent/all"
         },
-        "magnet", {
+        "magnet",
+        {
             "1080p": "/api/v1/feed/magnet/1080p",
             "720p": "/api/v1/feed/magnet/720p",
             "sd": "/api/v1/feed/magnet/sd",
             "all": "/api/v1/feed/magnet/all"
         }
-    ]
+    ],
+    "shows": {
+        "everything": "/api/v1/show/*show-goes-here*"
+    }
 }
