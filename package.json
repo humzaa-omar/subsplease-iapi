@@ -18,7 +18,7 @@
     "jquery": "^3.6.0",
     "jsdom": "^16.4.0",
     "nightmare": "^3.0.2",
-    "puppeteer": "^8.0.0",
+    "puppeteer": "^9.0.0",
     "rss-parser": "^3.10.0",
     "table-to-json": "^1.0.0"
   },
