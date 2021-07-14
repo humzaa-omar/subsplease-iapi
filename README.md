@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to Intermediate SubsPlease API 👋</h1>
+<h1 align="center">Welcome to SubsPlease Intermediate API 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-2.0.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/humzaa-omar/i-subsplease-api#readme" target="_blank">
