@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to SubsPlease API [Unofficial] 👋</h1>
+<h1 align="center">Welcome to SubsPlease API Interface 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/hfomar-nafcs/subsplease-api#readme" target="_blank">
@@ -29,8 +29,8 @@ curl -sSL -X GET https://subsplease-api.herokuapp.com/api/v1
 
 👤 **Humzaa Omar**
 
-* Website: https://omarnet.dev
-* Github: [@hfomar-nafcs](https://github.com/hfomar-nafcs)
+* Website: https://humzaa.dev
+* Github: [@humzaa-omar](https://github.com/humzaa-omar)
 
 ## 🤝 Contributing
 
@@ -42,5 +42,5 @@ Give a ⭐️ if this project helped you!
 
 ## 📝 License
 
-Copyright © 2021 [Humzaa Omar](https://github.com/hfomar-nafcs).<br />
-This project is [GPLv3](https://github.com/hfomar-nafcs/subsplease-api/blob/master/LICENSE) licensed.
+Copyright © 2021 [Humzaa Omar](https://github.com/humzaa-omar).<br />
+This project is [GPLv3](https://github.com/humzaa-omar/subsplease-api/blob/master/LICENSE) licensed.
