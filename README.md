@@ -14,7 +14,7 @@
 
 > An API to Interact with SubsPlease RSS Feeds
 
-### 🏠 [Homepage](https://github.com/hfomar-nafcs/subsplease-api#readme)
+### 🏠 [Homepage](https://github.com/humzaa-omar/subsplease-api#readme)
 
 ### ✨ [Demo](https://subsplease-api.herokuapp.com/api/v1)
 
