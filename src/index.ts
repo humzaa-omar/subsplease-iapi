@@ -32,7 +32,7 @@ const basePathJSON = (c: any) => {
   return {
     version: 2,
     status: c,
-    name: "Intermediate SubsPlease API",
+    name: "SubsPlease iAPI",
     creator: "Humzaa Omar",
     endpoints: {
       feeds: {
